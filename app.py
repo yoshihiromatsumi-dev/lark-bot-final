@@ -3,22 +3,21 @@ import requests
 import os
 import sys
 import json
-import redis
+import time
 
 app = Flask(__name__)
 
 APP_ID = os.environ.get("LARK_APP_ID", "YOUR_APP_ID")
 APP_SECRET = os.environ.get("LARK_APP_SECRET", "YOUR_APP_SECRET")
 
-# Redis接続設定
-REDIS_URL = os.environ.get("REDIS_URL", "redis://localhost:6379/0")
-redis_client = redis.Redis.from_url(REDIS_URL)
+# メモリ上でevent_idを保持（event_id: 保存時刻）
+event_id_cache = {}
+EVENT_ID_CACHE_EXPIRE = 300  # 5分
 
 # デバッグ情報を出力
 print(f"=== アプリ起動 ===", file=sys.stderr)
 print(f"APP_ID: {APP_ID[:10]}..." if APP_ID != "YOUR_APP_ID" else "APP_ID: 未設定", file=sys.stderr)
 print(f"APP_SECRET: {'設定済み' if APP_SECRET != 'YOUR_APP_SECRET' else '未設定'}", file=sys.stderr)
-print(f"REDIS_URL: {REDIS_URL}", file=sys.stderr)
 print(f"================", file=sys.stderr)
 
 def get_tenant_access_token():
@@ -218,15 +217,20 @@ def lark_event():
     event = data.get("event", {})
     header = data.get("header", {})
 
-    # ======== 重複排除ロジック追加 ========
+    # ======== メモリによる重複排除ロジック ========
     event_id = header.get("event_id")
+    now = time.time()
+    # 古いevent_idを削除（メモリリーク防止）
+    expired_keys = [k for k, v in event_id_cache.items() if now - v > EVENT_ID_CACHE_EXPIRE]
+    for k in expired_keys:
+        del event_id_cache[k]
+    # 重複チェック
     if event_id:
-        redis_key = f"lark_event:{event_id}"
-        if redis_client.get(redis_key):
+        if event_id in event_id_cache:
             print(f"重複イベント検知: {event_id}", file=sys.stderr)
             return '', 200  # すでに処理済み
         else:
-            redis_client.set(redis_key, 1, ex=300)  # 5分間だけ保存
+            event_id_cache[event_id] = now  # 新規保存
     # ======== ここまで追加 ========
 
     print(f"event内容: {event}", file=sys.stderr)
