@@ -22,8 +22,8 @@ try:
     with open(DEPT_CSV_PATH, encoding="utf-8") as f:
         reader = csv.DictReader(f)
         for row in reader:
-            dept_id = row["部署ID"].strip()
-            dept_name = row["部署"].strip()
+            dept_id = row["dept_id"].strip()
+            dept_name = row["dept_name"].strip()
             dept_id_to_name[dept_id] = dept_name
     print(f"部署辞書ロード成功: {len(dept_id_to_name)}件", file=sys.stderr)
 except Exception as e:
