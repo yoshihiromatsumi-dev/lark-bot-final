@@ -1,23 +1,322 @@
-部署 ID,部署
-842001,株式会社NEXYZ.GROUP/NEXYZ./業務本部/業務推進部/DX推進課
-82000,株式会社NEXYZ.GROUP/NEXYZ./営業統括本部
-82900,株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.中国
-82901,株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.中国/地域戦略1課（広島）
-83100,株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.九州
-83101,株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.九州/地域戦略1課（福岡）
-82100,株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.北海道
-82103,株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.北海道/地域戦略1課（札幌）
-82600,株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.北陸
-82601,株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.北陸/地域戦略1課（金沢）
-83000,株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.四国
-82200,株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.東北
-82300,株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.東日本
-82400,株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.東日本/渋谷本社第二営業部
-82500,株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.関西
-82501,株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.関西/地域戦略1課（大阪）
-840000,株式会社NEXYZ.GROUP/NEXYZ./業務本部
-842000,株式会社NEXYZ.GROUP/NEXYZ./業務本部/業務推進部
-843000,株式会社NEXYZ.GROUP/NEXYZ./業務本部/業務推進部/業務推進課
-841000,株式会社NEXYZ.GROUP/NEXYZ./業務本部/販売推進部
-841001,株式会社NEXYZ.GROUP/NEXYZ./業務本部/販売推進部/販売促進課
-841003,株式会社NEXYZ.GROUP/NEXYZ./業務本部/販売推進部/顧客サポート課
+部署 ID	,	部署
+c764c8gcabca7c36	,	株式会社NEXYZ.GROUP/BODYARCHI店舗
+855gcd19d463gce9	,	株式会社NEXYZ.GROUP/ByteDance
+38a84g67d2g67gd9	,	株式会社NEXYZ.GROUP/NEXYZ.
+82000	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部
+82900	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.中国
+82901	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.中国/地域戦略1課（広島）
+d5d85a6d1aee7938	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.中国/地域戦略1課（広島）/1係（広島地域戦略1課）
+eb66b3521f1629d6	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.中国/地域戦略1課（広島）/2係（広島地域戦略1課）
+e2ag9eec46cagc96	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.中国/地域戦略1課（広島）/育成係（広島）
+e1b3b6cg977abe82	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.中国/地域戦略1課（広島）/防府営業所
+82903	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.中国/地域戦略2課（広島）
+51b9cac1ae325939	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.中国/地域戦略2課（広島）/1係（広島地域戦略2課）
+3213dfefbe67824f	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.中国/地域戦略2課（広島）/2係（広島地域戦略2課）
+31gdf8d27gd6c5a9	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.中国/地域戦略2課（広島）/3係（広島地域戦略2課）
+82700	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.中部
+82702	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.中部/地域戦略1課（名古屋）
+c77gbcb9c2649ff3	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.中部/地域戦略1課（名古屋）/1係（名古屋）
+4add17dd4f743558	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.中部/地域戦略1課（名古屋）/2係（名古屋）
+ebf3d4ab96775848	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.中部/地域戦略1課（名古屋）/3係（名古屋）
+g59235e94c6g61ab	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.中部/地域戦略1課（名古屋）/4係（名古屋）
+82703	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.中部/施工係（名古屋）
+83100	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.九州
+3f61eg5f164d7645	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.九州/コントラ係（福岡）
+83101	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.九州/地域戦略1課（福岡）
+db53e4d5cb161268	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.九州/地域戦略1課（福岡）/1係（福岡地域戦略1課）
+e7af6ccg96c63a7c	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.九州/地域戦略1課（福岡）/2係（福岡地域戦略1課）
+13dgaf776aa8acf1	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.九州/地域戦略1課（福岡）/3係（福岡地域戦略1課）
+83102	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.九州/地域戦略2課（福岡）
+ff88c7224938cdbg	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.九州/地域戦略2課（福岡）/1係（福岡地域戦略2課）
+7gb8548c6fedeeag	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.九州/地域戦略2課（福岡）/2係（福岡地域戦略2課）
+83104	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.九州/大分営業所
+da1ae3d29999cf3e	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.九州/大分営業所/1係（大分営業所）
+f346ebdfg28edg7b	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.九州/大分営業所/2係（大分営業所）
+83103	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.九州/熊本営業所
+g7bd19g35fa9deca	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.九州/熊本営業所/1係（熊本営業所）
+5975dgb697b3dec7	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.九州/熊本営業所/2係（熊本営業所）
+7fb445236e458c6a	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.九州/熊本営業所/3係（熊本営業所）
+82100	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.北海道
+82103	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.北海道/地域戦略1課（札幌）
+5b1b28g4b4dbag92	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.北海道/地域戦略1課（札幌）/1係（札幌）
+74fg19843a9a6a14	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.北海道/地域戦略1課（札幌）/2係（札幌）
+88b1e61e5c959daf	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.北海道/地域戦略1課（札幌）/帯広営業所
+g1dd51196e2f8767	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.北海道/地域戦略1課（札幌）/旭川営業所
+dd142g11e7fg4e1d	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.北海道/地域戦略1課（札幌）/釧路営業所
+82101	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.北海道/地域戦略2課（札幌）
+dbd1g38g175fcge5	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.北海道/地域戦略2課（札幌）/1係（札幌）
+55118a1afb2d8ccc	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.北海道/育成課
+a8383741eg8adcf6	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.北海道/育成課/育成係
+82600	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.北陸
+82601	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.北陸/地域戦略1課（金沢）
+561e446eb3242ge5	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.北陸/地域戦略1課（金沢）/1係（金沢）
+5a79gaf69ec8c167	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.北陸/地域戦略1課（金沢）/2係（金沢）
+d379b2gg96326fb4	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.北陸/地域戦略1課（金沢）/3係（金沢）
+c38f968477731927	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.北陸/地域戦略1課（金沢）/4係（金沢）
+7da63f8f3624ca62	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.北陸/地域戦略1課（金沢）/5係（金沢）
+83000	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.四国
+83001	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.四国/地域戦略課（高松）
+69ebbbcc21g8a9c6	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.四国/地域戦略課（高松）/1係（高松）
+ce9bc436g75a9eag	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.四国/地域戦略課（高松）/育成係（高松）
+82200	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.東北
+82203	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.東北/地域戦略1課（仙台）
+eff7g5ee5393ffa4	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.東北/地域戦略1課（仙台）/1係（仙台）
+1195fb5aff638262	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.東北/地域戦略1課（仙台）/2係（仙台）
+f2gf15e695a81649	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.東北/地域戦略1課（仙台）/山形営業所
+2af94f18gc67c4d9	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.東北/地域戦略1課（仙台）/盛岡営業所
+cc3g7g727d2eae1a	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.東北/地域戦略1課（仙台）/育成係（仙台）
+b48c6b725971915d	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.東北/地域戦略1課（仙台）/郡山営業所
+82201	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.東北/盛岡営業所
+6a183f1d935g2f4g	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.東北/盛岡営業所/1係（盛岡営業所）
+bfe3fa414e53c32b	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.東北/盛岡営業所/2係（盛岡営業所）
+acda6g1eage58994	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.東北/盛岡営業所/3係（盛岡営業所）
+82300	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.東日本
+83900	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.東日本/AD代理店支援部
+82301	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.東日本/渋谷本社第一営業部
+68g18d979dd5c5e5	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.東日本/渋谷本社第一営業部/地域戦略1課
+1d74e9da6943927g	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.東日本/渋谷本社第一営業部/地域戦略1課/1係（渋谷第一）
+54ea34cbg7c9fd6a	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.東日本/渋谷本社第一営業部/地域戦略1課/千葉営業所
+55c42526fbfda7b8	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.東日本/渋谷本社第一営業部/地域戦略1課/水戸営業所
+1ef6d6g6e9417g5c	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.東日本/渋谷本社第一営業部/地域戦略1課/育成係（渋谷第一）
+83300	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.東日本/渋谷本社第三営業部
+55479e3a78a9f6df	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.東日本/渋谷本社第三営業部/コントラ係
+gdg8aa26cc8d912g	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.東日本/渋谷本社第三営業部/地域戦略1課
+fg5c8d7ff6d7cfeb	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.東日本/渋谷本社第三営業部/地域戦略1課/1係（渋谷第三）
+7gd2adgd443ga21c	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.東日本/渋谷本社第三営業部/地域戦略1課/2係（渋谷第三）
+173a4b7d3175g996	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.東日本/渋谷本社第三営業部/地域戦略1課/3係（渋谷第三）
+6ge7d5gc55a49ce1	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.東日本/渋谷本社第三営業部/地域戦略1課/4係（渋谷第三）
+4778fa87b6d64216	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.東日本/渋谷本社第三営業部/地域戦略1課/5係（渋谷第三）
+736ac9dacd8a9e3a	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.東日本/渋谷本社第三営業部/地域戦略1課/6係（渋谷第三）
+9d32181b32agd125	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.東日本/渋谷本社第三営業部/地域戦略1課/宇都宮営業所
+aa3g615ffccfa442	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.東日本/渋谷本社第三営業部/地域戦略1課/育成係（渋谷第三）
+82400	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.東日本/渋谷本社第二営業部
+g92deg2ge426befd	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.東日本/渋谷本社第二営業部/地域戦略1課
+b478214d114f3334	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.東日本/渋谷本社第二営業部/地域戦略1課/1係（渋谷第二）
+c221c4276d7g1cb1	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.東日本/渋谷本社第二営業部/地域戦略1課/新潟営業所
+8232f44f8da882dc	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.東日本/渋谷本社第二営業部/地域戦略1課/新潟営業所2
+61fc7ddbdeb317b6	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.東日本/渋谷本社第二営業部/地域戦略1課/育成係
+313689d3a51f5dga	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.東日本/渋谷本社第二営業部/地域戦略1課/長野営業所
+27c5c2f4f3g66d97	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.東日本/渋谷本社第二営業部/地域戦略1課/高崎営業所
+3gca4b45eabg9df8	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.東日本/渋谷本社第二営業部/地域戦略1課/高崎営業所2
+82800	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.東海
+82801	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.東海/地域戦略1課（静岡）
+dd632f52aa2b2178	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.東海/地域戦略1課（静岡）/1係（静岡）
+2824bc2ab4eg4ccd	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.東海/地域戦略1課（静岡）/2係（静岡）
+7f55e446de3d2997	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.東海/地域戦略1課（静岡）/3係（静岡）
+83200	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.沖縄
+83201	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.沖縄/地域戦略課（那覇）
+53624987a9d854a8	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.沖縄/地域戦略課（那覇）/1係（那覇）
+4d11df2agd1cf7ab	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.沖縄/地域戦略課（那覇）/2係（那覇）
+2ae4g4g6f1ffe73b	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.沖縄/地域戦略課（那覇）/3係（那覇）
+82500	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.関西
+82501	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.関西/地域戦略1課（大阪）
+e86f61eg7da92192	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.関西/地域戦略1課（大阪）/1係（大阪地域戦略1課）
+8c4713f7fe9f193c	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.関西/地域戦略1課（大阪）/2係（大阪地域戦略1課）
+2eef45d7fg7gc8b4	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.関西/地域戦略1課（大阪）/3係（大阪地域戦略1課）
+e3ec71c6c5a68gf7	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.関西/地域戦略1課（大阪）/4係（大阪地域戦略1課）
+82502	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.関西/地域戦略2課（大阪）
+cb765bc1d6223dc2	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.関西/地域戦略2課（大阪）/1係（大阪地域戦略2課）
+82503	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.関西/地域戦略3課（大阪）
+e736b75d6881f384	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.関西/地域戦略3課（大阪）/1係（大阪地域戦略3課）
+a5b284gdf3f67775	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.関西/地域戦略3課（大阪）/2係（大阪地域戦略3課）
+82504	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.関西/地域戦略4課（大阪）
+bedfc61be83e2e28	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.関西/地域戦略4課（大阪）/1係（大阪地域戦略4課）
+9bgd5f4a2372176f	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.関西/地域戦略4課（大阪）/2係（大阪地域戦略4課）
+76bagdf4e622ab7d	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.関西/地域戦略4課（大阪）/3係（大阪地域戦略4課）
+78483477d136g5be	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.関西/滋賀営業所
+87c546cf2e8g21f3	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.関西/滋賀営業所/1係（滋賀営業所）
+a216a39c7aff1g67	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/NEXYZ.関西/滋賀営業所/2係（滋賀営業所）
+83800	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/アグリ推進部
+83801	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/アグリ推進部/施設園芸課
+e234fge259e49ff5	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/アグリ推進部/施設園芸課/1係（アグリ）
+ab5ee532e8fe93a1	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/アグリ推進部/施設園芸課/2係（アグリ）
+3322g8bdaga86bg3	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/アグリ推進部/施設園芸課/3係（アグリ）
+ad614e5ffae35a84	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/アグリ推進部/施設園芸課/4係（アグリ）
+b5ab87ac8cfd8cff	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/サポート課
+df8aa2ef6655d2fb	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/サポート課/NXAIボードグループ
+bfc369a52g257abb	,	株式会社NEXYZ.GROUP/NEXYZ./営業統括本部/サポート課/サポート係
+840000	,	株式会社NEXYZ.GROUP/NEXYZ./業務本部
+842000	,	株式会社NEXYZ.GROUP/NEXYZ./業務本部/業務推進部
+842001	,	株式会社NEXYZ.GROUP/NEXYZ./業務本部/業務推進部/DX推進課
+c661614ebac72e46	,	株式会社NEXYZ.GROUP/NEXYZ./業務本部/業務推進部/DX推進課/情報システム係
+42279556gba24c8c	,	株式会社NEXYZ.GROUP/NEXYZ./業務本部/業務推進部/DX推進課/業務推進係
+843000	,	株式会社NEXYZ.GROUP/NEXYZ./業務本部/業務推進部/業務推進課
+ea3756bc79f8g2a7	,	株式会社NEXYZ.GROUP/NEXYZ./業務本部/業務推進部/業務推進課/データ管理係
+4g9f6f6g453f57bb	,	株式会社NEXYZ.GROUP/NEXYZ./業務本部/業務推進部/業務推進課/債権管理係
+12cceaceeb382b67	,	株式会社NEXYZ.GROUP/NEXYZ./業務本部/業務推進部/業務推進課/商品1係
+cd536a1ccdf8cag2	,	株式会社NEXYZ.GROUP/NEXYZ./業務本部/業務推進部/業務推進課/商品2係
+9g7c5ebe21ce5eb9	,	株式会社NEXYZ.GROUP/NEXYZ./業務本部/業務推進部/業務推進課/営業サポート係
+840001	,	株式会社NEXYZ.GROUP/NEXYZ./業務本部/経営サポート部
+840002	,	株式会社NEXYZ.GROUP/NEXYZ./業務本部/経営サポート部/経営サポート課
+ad25g46cacg3f3fc	,	株式会社NEXYZ.GROUP/NEXYZ./業務本部/経営サポート部/農業事業課
+841000	,	株式会社NEXYZ.GROUP/NEXYZ./業務本部/販売推進部
+841001	,	株式会社NEXYZ.GROUP/NEXYZ./業務本部/販売推進部/販売促進課
+b5b2e2ab28636e32	,	株式会社NEXYZ.GROUP/NEXYZ./業務本部/販売推進部/販売促進課/制作係
+a7876b9a92a33ebb	,	株式会社NEXYZ.GROUP/NEXYZ./業務本部/販売推進部/販売促進課/販売管理係
+841003	,	株式会社NEXYZ.GROUP/NEXYZ./業務本部/販売推進部/顧客サポート課
+9ec7fea8ag83389g	,	株式会社NEXYZ.GROUP/NEXYZ./業務本部/販売推進部/顧客サポート課/CS1係
+eg3a1a53ad11g42d	,	株式会社NEXYZ.GROUP/NEXYZ./業務本部/販売推進部/顧客サポート課/CS2係
+b913847b1acfc8bg	,	株式会社NEXYZ.GROUP/NEXYZ./業務本部/販売推進部/顧客サポート課/販売係
+92000	,	株式会社NEXYZ.GROUP/NEXYZ.Group
+5b5b8fd57c911a39	,	株式会社NEXYZ.GROUP/NEXYZ.Group/DX戦略本部
+d34gd5c1gadd13af	,	株式会社NEXYZ.GROUP/NEXYZ.Group/内部監査室
+92200	,	株式会社NEXYZ.GROUP/NEXYZ.Group/社長室
+798fb645557fc5c1	,	株式会社NEXYZ.GROUP/NEXYZ.Group/社長室/PL
+b8f442f7aa5f5b4b	,	株式会社NEXYZ.GROUP/NEXYZ.Group/社長室/PL/パッションリーダーズ
+a3eb9937bfe54396	,	株式会社NEXYZ.GROUP/NEXYZ.Group/社長室/PL/パッションリーダーズ新人育成課
+92202	,	株式会社NEXYZ.GROUP/NEXYZ.Group/社長室/クリエイティブ部
+771bdf6c34ffgbc7	,	株式会社NEXYZ.GROUP/NEXYZ.Group/社長室/クリエイティブ部/クリエイティブ課
+92201	,	株式会社NEXYZ.GROUP/NEXYZ.Group/社長室/広報・IR課
+92203	,	株式会社NEXYZ.GROUP/NEXYZ.Group/社長室/秘書課
+92100	,	株式会社NEXYZ.GROUP/NEXYZ.Group/管理本部
+92110	,	株式会社NEXYZ.GROUP/NEXYZ.Group/管理本部/経理部
+92111	,	株式会社NEXYZ.GROUP/NEXYZ.Group/管理本部/経理部/経理課
+92112	,	株式会社NEXYZ.GROUP/NEXYZ.Group/管理本部/経理部/財務課
+92120	,	株式会社NEXYZ.GROUP/NEXYZ.Group/管理本部/総務部
+92121	,	株式会社NEXYZ.GROUP/NEXYZ.Group/管理本部/総務部/人事課
+92122	,	株式会社NEXYZ.GROUP/NEXYZ.Group/管理本部/総務部/総務課
+92400	,	株式会社NEXYZ.GROUP/NEXYZ.Group/経営企画室
+448ge589egeb8be4	,	株式会社NEXYZ.GROUP/NTec協力会社様
+33dd6fa37343572a	,	株式会社NEXYZ.GROUP/ネクシィーズ・テクノ
+9baae62fbcdd5f15	,	株式会社NEXYZ.GROUP/ネクシィーズ・テクノ/事業推進課
+g5962e8f981bdc8f	,	株式会社NEXYZ.GROUP/ネクシィーズ・テクノ/事業推進課/入札係
+6d47663g1d463fg8	,	株式会社NEXYZ.GROUP/ネクシィーズ・テクノ/事業推進課/契約係
+ee4351a9gf626826	,	株式会社NEXYZ.GROUP/ネクシィーズ・テクノ/事業推進課/施工係
+473b91b1e87c5f56	,	株式会社NEXYZ.GROUP/ネクシィーズ・テクノ/事業推進課/施工管理係
+dab47a41cbedaaeg	,	株式会社NEXYZ.GROUP/パッションムーバーズ
+1000	,	株式会社NEXYZ.GROUP/ブランジスタグループ
+20000	,	株式会社NEXYZ.GROUP/ブランジスタグループ/BR管理本部
+6867g4193d99348e	,	株式会社NEXYZ.GROUP/ブランジスタグループ/BR管理本部/管理部
+9226458b8864dg53	,	株式会社NEXYZ.GROUP/ブランジスタグループ/BR管理本部/管理部/経営企画課
+f726e8e72ec2fgcc	,	株式会社NEXYZ.GROUP/ブランジスタグループ/BR管理本部/管理部/経営企画課/コーポレートコミュニケーション係
+4b172198614a97ea	,	株式会社NEXYZ.GROUP/ブランジスタグループ/BR管理本部/管理部/経営企画課/経営企画係
+1050	,	株式会社NEXYZ.GROUP/ブランジスタグループ/BR管理本部/管理部/経理課
+c36ge6261535a9a2	,	株式会社NEXYZ.GROUP/ブランジスタグループ/BR管理本部/管理部/経理課/経理係
+30000	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタソリューション
+1600	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタソリューション/第1営業部
+1660	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタソリューション/第1営業部/営業企画課
+1610	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタソリューション/第1営業部/渋谷1課
+8a7gbgaa9f6aa197	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタソリューション/第1営業部/渋谷2課
+ff459d7e6dgc9767	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタソリューション/第1営業部/渋谷3課
+d6cdfffc5ecf4fc6	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタソリューション/第1営業部/渋谷4課
+1620	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタソリューション/第2営業部
+641df63a13ecef7f	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタソリューション/第2営業部/大阪1課
+ad92g6b3613db139	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタソリューション/第2営業部/札幌1課
+e671a5d94c2743gd	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタソリューション/第2営業部/福岡1課
+40000	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア
+2300	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/ACCEL JAPAN事業本部
+e5c472d3feg74d8c	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/ACCEL JAPAN事業本部/ACCEL JAPAN事業部
+2b39adf756eae4f8	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/ACCEL JAPAN事業本部/ACCEL JAPAN事業部/AJマーケティング課
+ee7a9fa9ef6da491	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/ACCEL JAPAN事業本部/ACCEL JAPAN事業部/AJマーケティング課/マーケティング係
+9db79bf98gb98ea4	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/ACCEL JAPAN事業本部/ACCEL JAPAN事業部/AJ企画運営課
+4f28246bfbca3g98	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/ACCEL JAPAN事業本部/ACCEL JAPAN事業部/AJ企画運営課/事業管理係
+7a4974g9da3f4acd	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/ACCEL JAPAN事業本部/ACCEL JAPAN事業部/AJ企画運営課/企画制作係
+2320	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/ACCEL JAPAN事業本部/ACCEL JAPAN第1営業部
+e528325e5d2b4fd5	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/ACCEL JAPAN事業本部/ACCEL JAPAN第1営業部/AJ東日本営業課
+471b5891a83d6ff8	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/ACCEL JAPAN事業本部/ACCEL JAPAN第1営業部/AJ東日本営業課/営業1係
+d5fdeb72g6935525	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/ACCEL JAPAN事業本部/ACCEL JAPAN第1営業部/AJ東日本営業課/営業2係
+8df5gabbfdg62d1b	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/ACCEL JAPAN事業本部/ACCEL JAPAN第1営業部/AJ東日本営業課/営業3係
+2330	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/ACCEL JAPAN事業本部/ACCEL JAPAN第2営業部
+6bd7cf42fg6acda2	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/ACCEL JAPAN事業本部/ACCEL JAPAN第2営業部/AJ西日本営業1課
+ga13dcc7ddc1cba9	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/ACCEL JAPAN事業本部/ACCEL JAPAN第2営業部/AJ西日本営業1課/営業係
+b2322g2c7da6b68e	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/ACCEL JAPAN事業本部/ACCEL JAPAN第2営業部/AJ西日本営業2課
+9e377ee86529gf56	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/ACCEL JAPAN事業本部/ACCEL JAPAN第2営業部/AJ西日本営業2課/営業1係
+24756f77b263e88g	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/ACCEL JAPAN事業本部/ACCEL JAPAN第2営業部/AJ西日本営業2課/営業2係
+e6de7f332d6e4eee	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/ACCEL JAPAN事業本部/ACCEL JAPAN第3営業部
+594ceg39e52fce23	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/ACCEL JAPAN事業本部/ACCEL JAPAN第3営業部/カスタマーサクセス1課
+49agb698fb496f23	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/ACCEL JAPAN事業本部/ACCEL JAPAN第3営業部/カスタマーサクセス1課/営業係
+a48a75ec69bd644e	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/ACCEL JAPAN事業本部/ACCEL JAPAN第3営業部/カスタマーサクセス2課
+31edea44cc7e3367	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/ACCEL JAPAN事業本部/ACCEL JAPAN第3営業部/カスタマーサクセス2課/営業係
+2200	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/メディア編成本部
+3845gbae8g91b739	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/メディア編成本部/トラベル事業部
+2224	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/メディア編成本部/トラベル事業部/サービス推進課
+37239a5d1a3158gg	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/メディア編成本部/トラベル事業部/トラベル事業課
+2225	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/メディア編成本部/トラベル事業部/企画制作課
+c13517dg21g353g9	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/メディア編成本部/編集部
+759g97d33fcef934	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/メディア編成本部/編集部/第1編集課
+ebdfe2b1de463fbc	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/メディア編成本部/編集部/第2編集課
+2220	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/メディア編成本部/開発制作部
+3988135171aa39a2	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/メディア編成本部/開発制作部/コンテンツ制作課
+2223	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/メディア編成本部/開発制作部/マーケティング課
+2222	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/メディア編成本部/開発制作部/商品管理課
+2221	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/メディア編成本部/開発制作部/開発制作課
+ddbfdfg941529e1b	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/電子雑誌営業本部
+11ggfeaeg331aac9	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/電子雑誌営業本部/電子雑誌北日本営業部
+1dcd25b41ggb6fc4	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/電子雑誌営業本部/電子雑誌北日本営業部/仙台営業課
+5527171bfabgfa45	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/電子雑誌営業本部/電子雑誌北日本営業部/仙台営業課/営業係
+37f8gaabd6372198	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/電子雑誌営業本部/電子雑誌北日本営業部/仙台営業課/営業管理係
+aa94f8b542a87242	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/電子雑誌営業本部/電子雑誌北日本営業部/札幌営業課
+g7g773d8ag99f479	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/電子雑誌営業本部/電子雑誌北日本営業部/札幌営業課/営業係
+3a17g6a9736c666f	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/電子雑誌営業本部/電子雑誌北日本営業部/札幌営業課/営業管理係
+3693c2f6346833e6	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/電子雑誌営業本部/電子雑誌東名営業部
+7f339412ecfc7cca	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/電子雑誌営業本部/電子雑誌東名営業部/名古屋営業課
+db448a2a16fb8de4	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/電子雑誌営業本部/電子雑誌東名営業部/名古屋営業課/営業1係
+fd61e33f26b969d1	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/電子雑誌営業本部/電子雑誌東名営業部/名古屋営業課/営業2係
+e4218d3141a64eae	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/電子雑誌営業本部/電子雑誌東名営業部/名古屋営業課/営業3係
+d98d46bg9gdc87dc	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/電子雑誌営業本部/電子雑誌東名営業部/名古屋営業課/営業4係
+b3b9fc98eb3b29fa	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/電子雑誌営業本部/電子雑誌東名営業部/名古屋営業課/営業サポート係
+a3613fa7627c235e	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/電子雑誌営業本部/電子雑誌東名営業部/営業推進課
+ccba75f13db519f2	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/電子雑誌営業本部/電子雑誌東名営業部/渋谷営業1課
+7539afg66e98982f	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/電子雑誌営業本部/電子雑誌東名営業部/渋谷営業1課/営業1係
+g73138af96c5f829	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/電子雑誌営業本部/電子雑誌東名営業部/渋谷営業1課/営業2係
+a1a8575gf6c38eeb	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/電子雑誌営業本部/電子雑誌東名営業部/渋谷営業1課/営業3係
+c9185bbe117bg138	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/電子雑誌営業本部/電子雑誌東名営業部/渋谷営業1課/営業サポート1係
+8f1a418367458f23	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/電子雑誌営業本部/電子雑誌東名営業部/渋谷営業2課
+374e7d9b9f5g9ba7	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/電子雑誌営業本部/電子雑誌東名営業部/渋谷営業2課/営業1係
+89d819ddg973fgff	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/電子雑誌営業本部/電子雑誌東名営業部/渋谷営業2課/営業2係
+519ebabde25e6g4c	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/電子雑誌営業本部/電子雑誌東名営業部/渋谷営業2課/営業サポート2係
+9843cd726cfd7753	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/電子雑誌営業本部/電子雑誌東名営業部/渋谷営業支援課
+g267b575g3g5d733	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/電子雑誌営業本部/電子雑誌東名営業部/渋谷営業支援課/WEBフォロー係
+c58c54d2f8dg6aa1	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/電子雑誌営業本部/電子雑誌自治体営業部
+e5dea4a4c2bf6d69	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/電子雑誌営業本部/電子雑誌自治体営業部/東日本営業課
+8d586f1a7g7d2ea6	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/電子雑誌営業本部/電子雑誌自治体営業部/東日本営業課/営業係
+a8fa42c5b614dbc3	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/電子雑誌営業本部/電子雑誌自治体営業部/東日本営業課/営業管理係
+bcbc5feadaf239f3	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/電子雑誌営業本部/電子雑誌自治体営業部/西日本営業課
+682c432g37719ffb	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/電子雑誌営業本部/電子雑誌自治体営業部/西日本営業課/営業係
+2db22399g8b313b5	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/電子雑誌営業本部/電子雑誌西日本営業部
+g9516199999421dg	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/電子雑誌営業本部/電子雑誌西日本営業部/福岡営業1課
+c8519ddg32bb196a	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/電子雑誌営業本部/電子雑誌西日本営業部/福岡営業1課/営業1係
+3a1gfb3517fcfbcb	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/電子雑誌営業本部/電子雑誌西日本営業部/福岡営業1課/営業2係
+a76c4899feb1b754	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/電子雑誌営業本部/電子雑誌西日本営業部/福岡営業1課/営業3係
+17ga82ddg96ffcf6	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/電子雑誌営業本部/電子雑誌西日本営業部/福岡営業2課
+13e9fb9bd6fgffaa	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/電子雑誌営業本部/電子雑誌西日本営業部/福岡営業2課/営業1係
+2575d7336644dbb3	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/電子雑誌営業本部/電子雑誌西日本営業部/福岡営業2課/営業サポート係
+aeda139e11eb341g	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/電子雑誌営業本部/電子雑誌西日本営業部/高松営業課
+27gd5e82a31f36ce	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/電子雑誌営業本部/電子雑誌西日本営業部/高松営業課/営業サポートメディア係
+54g35531877cf6a9	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/電子雑誌営業本部/電子雑誌西日本営業部/高松営業課/営業係
+c269119cf111419d	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/電子雑誌営業本部/電子雑誌関西中国営業部
+7746febf57e7755f	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/電子雑誌営業本部/電子雑誌関西中国営業部/大阪営業1課
+b4398gca39434569	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/電子雑誌営業本部/電子雑誌関西中国営業部/大阪営業1課/営業サポート係
+232c3352ed3df2eb	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/電子雑誌営業本部/電子雑誌関西中国営業部/大阪営業1課/営業係
+17ac23c4ec92db95	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/電子雑誌営業本部/電子雑誌関西中国営業部/大阪営業2課
+gfad5g2g7151b218	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/電子雑誌営業本部/電子雑誌関西中国営業部/大阪営業2課/営業係
+d28b83g415fa94dc	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/電子雑誌営業本部/電子雑誌関西中国営業部/広島営業課
+9e883ec423ead96e	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/電子雑誌営業本部/電子雑誌関西中国営業部/広島営業課/営業サポート係
+b1562b6dce69bgc6	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/電子雑誌営業本部/電子雑誌関西中国営業部/広島営業課/営業係
+4765cc8f553caf5b	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタメディア/電子雑誌営業本部/電子雑誌関西中国営業部/更新営業課
+1400	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタ台湾
+1401	,	株式会社NEXYZ.GROUP/ブランジスタグループ/ブランジスタ台湾/営業課
+3eg7172a8878a5f4	,	株式会社NEXYZ.GROUP/ブランジスタグループ/内部監査室
+885ea7f93226fa8e	,	株式会社NEXYZ.GROUP/ボディアーキ・ジャパン
+51000	,	株式会社NEXYZ.GROUP/ボディアーキ・ジャパン/BA管理部
+51001	,	株式会社NEXYZ.GROUP/ボディアーキ・ジャパン/BA管理部/管理課
+53000	,	株式会社NEXYZ.GROUP/ボディアーキ・ジャパン/運営部
+53001	,	株式会社NEXYZ.GROUP/ボディアーキ・ジャパン/運営部/ブランドデザイン課
+53005	,	株式会社NEXYZ.GROUP/ボディアーキ・ジャパン/運営部/マーケティング課
+b3467a5b88d64dc4	,	株式会社NEXYZ.GROUP/ボディアーキ・ジャパン/運営部/マーケティング課/CRM係
+93b2ed738175813g	,	株式会社NEXYZ.GROUP/ボディアーキ・ジャパン/運営部/マーケティング課/PR係
+dd61f351de15457a	,	株式会社NEXYZ.GROUP/ボディアーキ・ジャパン/運営部/マーケティング課/クリエイティブ係
+d663c17c3bgefdga	,	株式会社NEXYZ.GROUP/ボディアーキ・ジャパン/運営部/マーケティング課/商品係
+53003	,	株式会社NEXYZ.GROUP/ボディアーキ・ジャパン/運営部/店舗運営課
+gfa358982495dgd8	,	株式会社NEXYZ.GROUP/ボディアーキ・ジャパン/運営部/店舗運営課/店舗運営係
+779g57fd66c4dd2c	,	株式会社NEXYZ.GROUP/ボディアーキ・ジャパン/運営部/店舗運営課/育成係
+53002	,	株式会社NEXYZ.GROUP/ボディアーキ・ジャパン/運営部/業務推進課
+4da92ed3f66g8c8a	,	株式会社NEXYZ.GROUP/ボディアーキ・ジャパン/運営部/業務推進課/パートナー支援係
+37g88ca7ce9653g5	,	株式会社NEXYZ.GROUP/ボディアーキ・ジャパン/運営部/業務推進課/業務推進係
+g87814fgb5cgdda7	,	株式会社NEXYZ.GROUP/株式会社ネクシィーズ・ワンダーウォール
+1c9g853g3fd1d4g4	,	株式会社NEXYZ.GROUP/派遣社員グループ
+3g6g151961b29923	,	株式会社NEXYZ.GROUP/退職者メールアーカイブ
+43e8efe991e2fga7	,	株式会社NEXYZ.GROUP/退職者メールアーカイブ/BR退職者メールアーカイブ
+2abcae6gd49938bf	,	株式会社NEXYZ.GROUP/退職者メールアーカイブ/NXG退職者メールアーカイブ
+5g2dbbe1f4a146bf	,	株式会社NEXYZ.GROUP/退職者メールアーカイブ/NX退職者メールアーカイブ
+6eed2bg36bg643e8	,	株式会社NEXYZ.GROUP/退職者メールアーカイブ/その他退職者メールアーカイブ
