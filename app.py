@@ -3,16 +3,22 @@ import requests
 import os
 import sys
 import json
+import redis
 
 app = Flask(__name__)
 
 APP_ID = os.environ.get("LARK_APP_ID", "YOUR_APP_ID")
 APP_SECRET = os.environ.get("LARK_APP_SECRET", "YOUR_APP_SECRET")
 
+# Redis接続設定
+REDIS_URL = os.environ.get("REDIS_URL", "redis://localhost:6379/0")
+redis_client = redis.Redis.from_url(REDIS_URL)
+
 # デバッグ情報を出力
 print(f"=== アプリ起動 ===", file=sys.stderr)
 print(f"APP_ID: {APP_ID[:10]}..." if APP_ID != "YOUR_APP_ID" else "APP_ID: 未設定", file=sys.stderr)
 print(f"APP_SECRET: {'設定済み' if APP_SECRET != 'YOUR_APP_SECRET' else '未設定'}", file=sys.stderr)
+print(f"REDIS_URL: {REDIS_URL}", file=sys.stderr)
 print(f"================", file=sys.stderr)
 
 def get_tenant_access_token():
@@ -211,7 +217,18 @@ def lark_event():
     # イベント情報の抽出
     event = data.get("event", {})
     header = data.get("header", {})
-    
+
+    # ======== 重複排除ロジック追加 ========
+    event_id = header.get("event_id")
+    if event_id:
+        redis_key = f"lark_event:{event_id}"
+        if redis_client.get(redis_key):
+            print(f"重複イベント検知: {event_id}", file=sys.stderr)
+            return '', 200  # すでに処理済み
+        else:
+            redis_client.set(redis_key, 1, ex=300)  # 5分間だけ保存
+    # ======== ここまで追加 ========
+
     print(f"event内容: {event}", file=sys.stderr)
     
     event_type = header.get("event_type") or event.get("event_type")
