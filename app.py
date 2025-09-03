@@ -189,26 +189,33 @@ def lark_event():
         send_lark_reply(token, chat_id, f"「{text}」に一致するユーザーが見つかりませんでした。")
         return '', 200
 
-    # 結果構築
-    reply_lines = []
+     # 結果構築
+    reply_lines = ["部署のメンバーの一覧を確認しました。", ""]
     for user in matched_users:
         user_name = user.get("name", "名前不明")
         dept_ids = user.get("department_ids", [])
+        reply_lines.append(f"候補者：{user_name}")
+        reply_lines.append("")
         if not dept_ids:
-            reply_lines.append(f"候補者: {user_name}\n所属部署: なし\n部署メンバー: なし\n")
+            reply_lines.append("所属部署なし")
+            reply_lines.append("")
+            reply_lines.append("メンバーなし")
+            reply_lines.append("")
             continue
         dept_id = dept_ids[0]
         dept_name = get_department_info_from_csv(dept_id)
+        reply_lines.append(dept_name)
+        reply_lines.append("")
         member_names = get_department_members_from_users(users, dept_id)
         if member_names:
-            members_str = "\n- " + "\n- ".join(member_names)
+            reply_lines.extend(member_names)
         else:
-            members_str = " なし"
-        reply_lines.append(f"候補者: {user_name}\n所属部署: {dept_name}\n部署メンバー:{members_str}\n")
+            reply_lines.append("メンバーなし")
+        reply_lines.append("")  # 各候補者のあとに空行
 
     reply_text = "\n".join(reply_lines)
     send_lark_reply(token, chat_id, reply_text)
     return '', 200
-
+    
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000, debug=False)
