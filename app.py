@@ -4,6 +4,7 @@ import os
 import sys
 import json
 import time
+import pandas as pd
 
 app = Flask(__name__)
 
@@ -13,6 +14,19 @@ APP_SECRET = os.environ.get("LARK_APP_SECRET", "YOUR_APP_SECRET")
 # メモリ上でevent_idを保持（event_id: 保存時刻）
 event_id_cache = {}
 EVENT_ID_CACHE_EXPIRE = 300  # 5分
+
+# 部署マスタCSVを辞書化
+dept_id_to_name = {}
+DEPT_CSV_PATH = "departments.csv"
+try:
+    df = pd.read_csv(DEPT_CSV_PATH)
+    for _, row in df.iterrows():
+        dept_id = str(row["部署 ID"]).strip()
+        dept_name = str(row["部署"]).strip()
+        dept_id_to_name[dept_id] = dept_name
+    print(f"部署辞書ロード成功: {len(dept_id_to_name)}件", file=sys.stderr)
+except Exception as e:
+    print(f"部署辞書ロード失敗: {e}", file=sys.stderr)
 
 # デバッグ情報を出力
 print(f"=== アプリ起動 ===", file=sys.stderr)
@@ -95,24 +109,24 @@ def get_all_users(token):
     return users
 
 def get_department_info(token, department_id):
-    """部署情報取得"""
+    """部署情報取得（API失敗時はCSV辞書で補完）"""
     url = f"https://open.larksuite.com/open-apis/contact/v3/departments/{department_id}"
     headers = {"Authorization": f"Bearer {token}"}
     
     try:
         resp = requests.get(url, headers=headers, timeout=5)
-        
-        if resp.status_code != 200:
-            return f"(部署名取得失敗: {department_id})"
-        
-        resp_json = resp.json()
-        if resp_json.get("code") == 0 and "data" in resp_json:
-            return resp_json["data"].get("name", f"(部署名不明: {department_id})")
-        else:
-            return f"(部署名取得失敗: {department_id})"
-            
+        if resp.status_code == 200:
+            resp_json = resp.json()
+            if resp_json.get("code") == 0 and "data" in resp_json:
+                return resp_json["data"].get("name", f"(部署名不明: {department_id})")
     except Exception as e:
         print(f"部署名取得例外: {e}", file=sys.stderr)
+    
+    # ここでCSV辞書から補完
+    dept_name = dept_id_to_name.get(str(department_id))
+    if dept_name:
+        return dept_name + "（CSV補完）"
+    else:
         return f"(部署名取得失敗: {department_id})"
 
 def get_department_members(token, department_id):
