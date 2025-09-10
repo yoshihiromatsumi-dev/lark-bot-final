@@ -5,15 +5,16 @@ import sys
 import json
 import time
 import csv
+import hashlib
 
 app = Flask(__name__)
 
 APP_ID = os.environ.get("LARK_APP_ID", "YOUR_APP_ID")
 APP_SECRET = os.environ.get("LARK_APP_SECRET", "YOUR_APP_SECRET")
 
-# メモリ上でevent_idを保持（event_id: 保存時刻）
-event_id_cache = {}
-EVENT_ID_CACHE_EXPIRE = 300  # 5分
+# シンプルな重複排除: 姓名+チャットIDの組み合わせをキャッシュ
+search_cache = {}  # key: "姓名:chat_id", value: 検索時刻
+SEARCH_CACHE_EXPIRE = 600  # 10分
 
 # 部署マスタCSVを辞書化（pandasなし）
 dept_id_to_name = {}
@@ -28,6 +29,34 @@ try:
     print(f"部署辞書ロード成功: {len(dept_id_to_name)}件", file=sys.stderr)
 except Exception as e:
     print(f"部署辞書ロード失敗: {e}", file=sys.stderr)
+
+def cleanup_search_cache():
+    """期限切れの検索キャッシュを削除"""
+    now = time.time()
+    expired_keys = [k for k, v in search_cache.items() if now - v > SEARCH_CACHE_EXPIRE]
+    for k in expired_keys:
+        del search_cache[k]
+    if expired_keys:
+        print(f"期限切れキャッシュ削除: {len(expired_keys)}件", file=sys.stderr)
+
+def is_recent_search(name, chat_id):
+    """同じ姓名が最近検索されたかチェック"""
+    search_key = f"{name}:{chat_id}"
+    now = time.time()
+    
+    # キャッシュクリーンアップ
+    cleanup_search_cache()
+    
+    if search_key in search_cache:
+        last_search_time = search_cache[search_key]
+        elapsed = now - last_search_time
+        print(f"重複検索検出: {name} (前回から{elapsed:.1f}秒)", file=sys.stderr)
+        return True
+    
+    # 新しい検索として記録
+    search_cache[search_key] = now
+    print(f"新規検索: {name}", file=sys.stderr)
+    return False
 
 def get_tenant_access_token():
     """アクセストークン取得"""
@@ -125,7 +154,8 @@ def send_lark_reply(token, chat_id, reply_text):
 @app.route('/', methods=['GET', 'POST'])
 def lark_event():
     if request.method == 'GET':
-        return "Hello, Final Lark Bot! - Version 2.0"
+        return "Hello, Simple Lark Bot! - Version 3.0 (Simple Duplicate Prevention)"
+    
     try:
         data = request.get_json()
     except Exception as e:
@@ -139,19 +169,6 @@ def lark_event():
     event = data.get("event", {})
     header = data.get("header", {})
 
-    # ======== メモリによる重複排除ロジック ========
-    event_id = header.get("event_id")
-    now = time.time()
-    expired_keys = [k for k, v in event_id_cache.items() if now - v > EVENT_ID_CACHE_EXPIRE]
-    for k in expired_keys:
-        del event_id_cache[k]
-    if event_id:
-        if event_id in event_id_cache:
-            return '', 200  # すでに処理済み
-        else:
-            event_id_cache[event_id] = now
-    # ======== ここまで ========
-
     event_type = header.get("event_type") or event.get("event_type")
     if event_type != "im.message.receive_v1":
         return '', 200
@@ -163,8 +180,15 @@ def lark_event():
         text = json.loads(content).get("text", "").strip()
     except Exception:
         text = content.strip()
+    
     if not text:
         return '', 200
+
+    # ======== シンプルな重複排除ロジック ========
+    if is_recent_search(text, chat_id):
+        print(f"重複検索のため処理をスキップ: {text}", file=sys.stderr)
+        return '', 200  # 10分以内に同じ姓名が検索済み
+    # ======== ここまで ========
 
     # アクセストークン取得
     token = get_tenant_access_token()
